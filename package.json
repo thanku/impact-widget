@@ -1,0 +1,25 @@
+{
+  "name": "@thanku/impact-widget",
+  "version": "0.1.0",
+  "description": "The ThankU Impact Widget is a Web Component that requests and displays the impact a specific user has generated on www.thanku.social",
+  "main": "lib/impact-widget.js",
+  "module": "lib/impact-widget.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx live-server ."
+  },
+  "files": [
+    "lib/impact-widget.js"
+  ],
+  "keywords": [
+    "thanku",
+    "widget",
+    "web component",
+    "impact"
+  ],
+  "author": "ThankU (thxto gUG)",
+  "homepage": "https://thanku.github.io/impact-widget/",
+  "repository": "github:thanku/impact-widget",
+  "license": "MIT"
+}

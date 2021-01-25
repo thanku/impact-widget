@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>ThankU Impact Widget Examples</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;600&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@0.7.4/dist/tailwind.min.css" rel="stylesheet" />
+    <link href="assets/prism.css" rel="stylesheet" />
+    <script type="module" src="./lib/impact-widget.js"></script>
+  </head>
+  <body>
+    <section class="container mx-auto px-5 py-12">
+      <a href="http://github.com/thanku/impact-widget" class="float-right mb-3 ml-3" title="Show project on GitHub">
+        <img src="./assets/github-logo.svg" width="35" height="35" alt="GitHub logo" />
+      </a>
+      <h1 class="text-teal-dark">ThankU Impact Widget Examples</h1>
+
+      <h2 class="mb-3 mt-8">Don't forget to put this inside &lt;head&gt;</h3>
+      <pre><code class="language-html">&lt;link rel="preconnect" href="https://fonts.gstatic.com" />
+&lt;link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;600&amp;display=swap" rel="stylesheet" />
+&lt;script type="module" src="https://unpkg.com/@thanku/impact-widget">&lt;/script></code></pre>
+
+      <h2 class="mb-3 mt-8">Existing profile in german with fallback link</h2>
+      <pre><code class="language-html"></code></pre>
+<thanku-impact-widget slug="martin" lang="de">
+  <a href="https://thx.to/:martin/de">Besuche meine ThankU-Seite</a>
+</thanku-impact-widget>
+
+      <h2 class="mb-3 mt-8">With custom styling (e.g. dark mode)</h2>
+      <pre><code class="language-html"></code></pre>
+<thanku-impact-widget slug="lukasz" style="
+  --bg-color: #202c55;
+  --bg-image: none;
+  --color-text-base: white;
+  --color-text-headline: #78c0c4;
+  --color-text-emphasis: #eea746;
+  --font-family: 'Courgette', cursive">
+</thanku-impact-widget>
+
+      <h2 class="mb-3 mt-8">No parameters (fallback to "The Universe")</h2>
+      <pre><code class="language-html"></code></pre>
+<thanku-impact-widget></thanku-impact-widget>
+
+      <h2 class="mb-3 mt-8">Non-existing profile</h2>
+      <pre><code class="language-html"></code></pre>
+<thanku-impact-widget slug="na"></thanku-impact-widget>
+
+      <p class="mt-8"><small>copyright (c) 2021 <a href="https://www.thanku.social" class="text-teal-dark">ThankU</a> (thxto gUG)</small></p>
+    </section>
+
+    <script>
+      document.querySelectorAll('pre + thanku-impact-widget').forEach(widget => {
+        widget.previousElementSibling.querySelector('code').textContent = widget.outerHTML;
+      });
+    </script>
+    <script src="assets/prism.js"></script>
+  </body>
+</html>
