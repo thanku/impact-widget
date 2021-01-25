@@ -1,14 +1,14 @@
-<a href="https://www.thanku.social">
-  <img src="assets/thanku-logo-square.png" alt="ThankU Logo" width="128" height="128" style="width:64px;height:64px;float:right" />
-</a>
+![ThankU logo](assets/thanku-logo.png)
 
-**Say ThankU and Do Good**
+**Say ThankU and Do Good** • [www.thanku.social](https://www.thanku.social) • Plant trees, clean the ocean, and protect animals
+
+---
 
 # ThankU Impact Widget (Web Component)
 
 Show your impact with ThankU on your website.
 
-<img src="assets/screenshot.png" alt="screenshot" width="1088" height="552" style="width:544px;height:276px" />
+![ThankU Impact Widget Screenshot](assets/screenshot.png)
 
 **See working examples here: https://thanku.github.io/impact-widget/**
 
