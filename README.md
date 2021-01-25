@@ -34,7 +34,7 @@ Add the following to an HTML document:
 <script type="module" src="https://unpkg.com/@thanku/impact-widget"></script>
 ```
 
-### NPM
+### [NPM](https://www.npmjs.com/package/@thanku/impact-widget)
 
 Run `npm i @thanku/impact-widget`.
 
