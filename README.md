@@ -51,11 +51,7 @@ Create a `<thanku-impact-widget>` element with default content for users of brow
 To get the full ThankU look and feel, also include the following font inside `<head>`:
 
 ```html
-<link rel="preconnect" href="https://fonts.gstatic.com" />
-<link
-  href="https://fonts.googleapis.com/css2?family=Exo:wght@400;600&display=swap"
-  rel="stylesheet"
-/>
+<link href="https://www.thanku.social/fonts/exo.css" rel="stylesheet" />
 ```
 
 ### Attributes
@@ -92,8 +88,9 @@ The CSS variables can be set e.g. inline via the `style` attribute like this:
          --color-text-base: white;
          --color-text-headline: #78c0c4;
          --color-text-emphasis: #eea746;
-         --font-family: 'Courgette', cursive"
-></thanku-impact-widget>
+         --font-family: 'Roboto Mono', monospace"
+>
+</thanku-impact-widget>
 ```
 
 ## License
