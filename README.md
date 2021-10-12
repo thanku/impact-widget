@@ -74,6 +74,7 @@ The style of the `<thanku-impact-widget>` element can be changed by setting the 
 - `--color-text-base` - The base color of the text
 - `--color-text-headline` - The color of the headline text
 - `--color-text-emphasis` - The color of emphasized text, like _impact value_ and _error message_
+- `--scale` - The scale factor of the content (e.g. font and image sizes, defaults to `1`)
 - `--font-family` - The font family of the text (defaults to `"Exo", sans-serif`)
 
 The CSS variables can be set e.g. inline via the `style` attribute like this:
@@ -86,6 +87,7 @@ The CSS variables can be set e.g. inline via the `style` attribute like this:
          --color-text-base: white;
          --color-text-headline: #78c0c4;
          --color-text-emphasis: #eea746;
+         --scale: 1.2;
          --font-family: 'Roboto Mono', monospace"
 >
 </thanku-impact-widget>
