@@ -38,11 +38,11 @@ Run `npm i @thanku/impact-widget`.
 
 ## Usage
 
-Create a `<thanku-impact-widget>` element with default content for users of browsers that don't support Web Components and add your ThankU page name to attribute `slug`.
+Create a `<thanku-impact-widget>` element with default content for users of browsers that don't support Web Components and add your ThankU wallet name to attribute `slug`.
 
 ```html
 <thanku-impact-widget slug="martin">
-  <a href="https://thx.to/:martin">Visit my ThankU page</a>
+  <a href="https://thx.to/:martin">Visit my ThankU wallet</a>
 </thanku-impact-widget>
 ```
 
@@ -54,7 +54,7 @@ To get the full ThankU look and feel, also include the following font inside `<h
 
 ### Attributes
 
-- `slug` - Your ThankU page name (required)
+- `slug` - Your ThankU wallet name (required)
 - `lang` - The language used for the text inside of the widget (optional, available: `en`|`de`, defaults to `en`)
 
 All attributes can be updated programatically, and the UI will update to reflect the changes.
