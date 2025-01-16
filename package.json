@@ -1,6 +1,6 @@
 {
   "name": "@thanku/impact-widget",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "The ThankU Impact Widget is a Web Component that requests and displays the impact a specific user has generated on www.thanku.social",
   "main": "lib/impact-widget.js",
   "module": "lib/impact-widget.js",
